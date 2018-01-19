@@ -1,0 +1,102 @@
+html,body{
+    font-family: sans-serif;
+    height: 100%;
+    background: linear-gradient(200deg, #d3f261, #ffffb8);
+    background-size: 200% 200%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+.headline{
+    color: #237804;
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+}
+
+p{
+    color: #36cfc9;
+}
+#time{
+    font-weight: bold;
+}
+#upoints{
+    visibility:hidden;
+}
+#usrpoints{
+    font-family: 'Supermercado One', cursive;
+    font-size: 30pt;
+    margin-bottom:30px;
+}
+#hscore{
+    float: left;
+}
+.startBtn{
+    background-color: #ffc53d;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-family: 'Supermercado One', cursive;
+    display: inline-block;
+}
+#start{
+    display: block;
+}
+#register{
+    width: 120px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    
+}
+#rbtn{
+    position: absolute;
+    border-radius: 50%;
+    padding: 30px;
+    border: 1px solid green;
+    background-image: url(02.svg);
+}
+#usrpoints, #time{
+    height: 16px;
+}
+#highscore{
+    font-family: 'Supermercado One', cursive;
+    font-size: 30pt;
+}
+.centrelogin{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    width: 280px;
+    height: 30px;
+    font-size: 10pt;
+    display:block;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
